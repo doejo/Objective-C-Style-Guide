@@ -11,6 +11,11 @@ Apple has already written a very good, and widely accepted, coding guide for Obj
 ##Indent style
 K&R C indent style is preferred. When adhering to K&R, each function has its opening brace at the next line on the same indentation level as its header, the statements within the braces are indented, and the closing brace at the end is on the same indentation level as the header of the function at a line of its own. The blocks inside a function, however, have their opening braces at the same line as their respective control statements; closing braces remain in a line of their own, unless followed by an else or while keyword.
 
+Summary:
+__C functions and Objective-C messages__: Opening brace goes on a new line.
+__If statement__: Opening brace stays on the same line.
+__C-Blocks__: Opening brace goes on a new line, except when the block is a parameter for a C function or ObjC message send... Xcode will auto-format improperly otherwise.
+
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -50,4 +55,19 @@ C functions are named using camel-cased-first-lower, and should form a verb or a
 void doSomething(void)
 {
 }
+```
+
+##Commenting
+While comments are highly encouraged for documenting details and reasonings that are not obvious from the code itself, comments should never be considered a replacement for clear code. Before adding a comment, ask yourself if the code itself could be clarified, removing the need for the comment altogether.
+
+Wrong:
+
+```objective-c
+int nEntsW; // Number of entities in the world
+```
+
+Correct:
+
+```objective-c
+int numberOfEntitiesInTheWorld;
 ```
