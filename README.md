@@ -13,7 +13,7 @@ K&R C indent style is preferred. When adhering to K&R, each function has its ope
 
 ###Summary:
 
-__C functions and Objective-C messages__: Opening brace goes on a new line.
+__C functions and Objective-C messages__: Opening brace goes on a new line. <br />
 __If statement__: Opening brace stays on the same line.
 __C-Blocks__: Opening brace goes on a new line, except when the block is a parameter for a C function or ObjC message send... Xcode will auto-format improperly otherwise.
 
