@@ -6,10 +6,10 @@ Where possible, these guidelines are derived from the notion that code must be r
 
 ##Background
 
-Apple has already written a very good, and widely accepted, coding guide for Objective-C.  This Objective-C guide aims to be a very natural combination of Apple's and my recommendations. So, before reading this guide, please make sure you've read: [Apple's Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html)
+Apple has already written a very good, and widely accepted, coding guide for Objective-C.  This Objective-C guide aims to be a very natural combination of Apple's and my recommendations. So, before reading this guide, please make sure you've read [Apple's Cocoa Coding Guidelines](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/index.html).
 
 ##Indent style
-K&R C Indent style is preferred. When adhering to K&R, each function has its opening brace at the next line on the same indentation level as its header, the statements within the braces are indented, and the closing brace at the end is on the same indentation level as the header of the function at a line of its own. The blocks inside a function, however, have their opening braces at the same line as their respective control statements; closing braces remain in a line of their own, unless followed by an else or while keyword.
+K&R C indent style is preferred. When adhering to K&R, each function has its opening brace at the next line on the same indentation level as its header, the statements within the braces are indented, and the closing brace at the end is on the same indentation level as the header of the function at a line of its own. The blocks inside a function, however, have their opening braces at the same line as their respective control statements; closing braces remain in a line of their own, unless followed by an else or while keyword.
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
