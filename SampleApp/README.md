@@ -38,3 +38,4 @@ git add submodule __git_url__ Library/ComponentName
 `App/HTML` - bundled HTML files.
 
 ## Project structure
+![Project structure screenshot](https://raw.github.com/romaonthego/Objective-C-Style-Guide/master/SampleApp/Project.png "Project structure screenshot")
