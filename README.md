@@ -42,6 +42,19 @@ __C-Blocks__: Opening brace goes on a new line, except when the block is a param
 }
 ````
 
+Do not break long lines (applies only to message declarations), for example, this one is correct:
+
+```objective-c
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+```
+
+and this one is not: 
+
+```objective-c
+- (BOOL)application:(UIApplication *)application 
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+```
+
 ##White space
 Xcode defaults to 4 spaces, so to increase the likelihood of consistency, use 4 spaces.
 
