@@ -28,8 +28,10 @@ git add submodule __git_url__ Library/ComponentName
 
 ## Folder structure
 
-`Library` - all third-party frameworks and controls must be placed in this folder.
-`App/Classes/Controllers` - application controllers
-`App/Classes/Helpers` - application helpers, categories, singletons, configuration objects, etc.
-`App/Classes/Models` - model objects, Core Data models
+`Library` - all third-party frameworks and controls must be placed in this folder.<br />
+`App/Classes/Controllers` - application view controllers.<br />
+`App/Classes/Helpers` - application helpers, categories, singletons, configuration objects, etc.<br />
+`App/Classes/Models` - model objects, Core Data models<br />
 `App/Classes/Views` - Custom UIView's, UITableViewCell's, etc.
+
+## Project structure
