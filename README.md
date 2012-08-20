@@ -52,7 +52,7 @@ and this one is not:
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application 
-        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 ```
 
 ##White space
