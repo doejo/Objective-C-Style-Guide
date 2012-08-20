@@ -1,0 +1,10 @@
+desc 'Install'
+task :install do
+  system %[git pull && git submodule init && git submodule update && git submodule status]
+  system %[./Library/FacebookSDK/scripts/build_facebook_ios_sdk_static_lib.sh]
+end
+
+desc 'Update'
+task :update do
+  system %[git pull && git submodule init && git submodule update && git submodule status]
+end
