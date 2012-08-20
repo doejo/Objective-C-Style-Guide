@@ -1,10 +1,8 @@
-__APP_NAME__
-=========================
+# __APP_NAME__
 
 This is a source code of __APP_NAME__ iPhone app. It can be compiled with Xcode 4.4+ and it uses ARC.
 
-Installation
--------------------------
+## Installation
 
 New install:
 
@@ -19,3 +17,11 @@ To update existing installation:
 ```Bash
 rake update
 ```
+
+## Submodules
+
+Use submodules to install third-party components, for example:
+
+`
+git add submodule __git_url__ Library/ComponentName
+`
