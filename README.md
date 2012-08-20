@@ -85,3 +85,7 @@ Correct:
 ```objective-c
 int numberOfEntitiesInTheWorld;
 ```
+
+##Project folder structure
+
+See [sample application](https://github.com/romaonthego/Objective-C-Style-Guide/tree/master/SampleApp).
