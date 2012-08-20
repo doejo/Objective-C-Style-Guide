@@ -1,7 +1,7 @@
-__APP_NAME
+__APP_NAME__
 =========================
 
-This is a source code of __APP_NAME iPhone app. It can be compiled with Xcode 4.4+ and it uses ARC.
+This is a source code of __APP_NAME__ iPhone app. It can be compiled with Xcode 4.4+ and it uses ARC.
 
 Installation
 -------------------------
@@ -9,7 +9,7 @@ Installation
 New install:
 
 ```Bash
-git clone __GIT__URL
+git clone __GIT__URL__
 cd appfolder-ios
 rake install
 ```
