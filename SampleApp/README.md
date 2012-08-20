@@ -33,6 +33,8 @@ git add submodule __git_url__ Library/ComponentName
 `App/Classes/Helpers` - application helpers, categories, singletons, configuration objects, etc.<br />
 `App/Classes/Models` - model objects, Core Data models<br />
 `App/Classes/Views` - Custom UIView's, UITableViewCell's, etc.<br />
-`App/Images` - image files, all UI customization images must be stored in consequent folders, e.g. UITTabBar custom images must be stored in `App/Images/UITabBar` and so on.
+`App/Images` - image files, all UI customization images must be stored in consequent folders, e.g. UITTabBar custom images must be stored in `App/Images/UITabBar` and so on.<br />
+`App/Fonts` - bundled fonts.<br />
+`App/HTML` - bundled HTML files.
 
 ## Project structure
