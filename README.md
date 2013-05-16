@@ -1,4 +1,4 @@
-#Roman Efimov's Objective-C Style and Usage Guide
+#Doejo Objective-C Style and Usage Guide
 
 This is an evolving document for my personal style and usage guidelines when writing Objective-C code.
 
