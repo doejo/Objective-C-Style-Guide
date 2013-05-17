@@ -10,7 +10,7 @@ This is a source code of __APP_NAME__ iPhone app. It can be compiled with Xcode 
 `App/Classes/Helpers` - application helpers, singletons, configuration objects, etc.<br />
 `App/Classes/Models` - model objects, Core Data models<br />
 `App/Classes/Views` - Custom UIView's, UITableViewCell's, etc.<br />
-`App/Resources/Images` - image files, user underscore to separate image categories, for example, navigation bar background image would be called `UINavigationBar_Background.png`.
+`App/Resources/Images` - image files, user underscore to separate image categories, for example, navigation bar background image would be called `UINavigationBar_Background.png`.<br />
 `App/Resources/Fonts` - bundled fonts.<br />
 `App/Resources/HTMLs` - bundled HTML files.
 
