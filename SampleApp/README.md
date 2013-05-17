@@ -7,7 +7,7 @@ This is a source code of __APP_NAME__ iPhone app. It can be compiled with Xcode 
 `Vendor` - all third-party frameworks and controls must be placed in this folder.<br />
 `App/Classes/Categories` - application categories.<br />
 `App/Classes/Controllers` - application view controllers.<br />
-`App/Classes/Helpers` - application helpers, categories, singletons, configuration objects, etc.<br />
+`App/Classes/Helpers` - application helpers, singletons, configuration objects, etc.<br />
 `App/Classes/Models` - model objects, Core Data models<br />
 `App/Classes/Views` - Custom UIView's, UITableViewCell's, etc.<br />
 `App/Resources/Images` - image files, all UI customization images must be stored in respective folders, e.g. UITTabBar custom images must be stored in `App/Images/UITabBar` and so on.<br />
