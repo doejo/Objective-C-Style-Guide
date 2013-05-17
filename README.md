@@ -89,3 +89,7 @@ int numberOfEntitiesInTheWorld;
 ##Project folder structure
 
 See [sample application](https://github.com/romaonthego/Objective-C-Style-Guide/tree/master/SampleApp).
+
+##Further reading
+
+* [Github coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
