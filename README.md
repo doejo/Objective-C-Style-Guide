@@ -93,3 +93,4 @@ See [sample application](https://github.com/romaonthego/Objective-C-Style-Guide/
 ##Further reading
 
 * [Github coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
+* [Apple code Naming Basics](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-BBCHBFAH)
