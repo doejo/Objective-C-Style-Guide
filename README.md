@@ -90,7 +90,10 @@ int numberOfEntitiesInTheWorld;
 
 See [sample application](https://github.com/romaonthego/Objective-C-Style-Guide/tree/master/SampleApp).
 
-##Further reading
+##Similar guides
 
-* [Github coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
 * [Apple code Naming Basics](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-BBCHBFAH)
+* [Github coding conventions for Objective-C projects](https://github.com/github/objective-c-conventions)
+* [Google Objective-C Style Guide](http://google-styleguide.googlecode.com/svn/trunk/objcguide.xml)
+* [Luke Redpath Objective-C Style Guide](http://lukeredpath.co.uk/blog/my-objective-c-style-guide.html)
+* [Josh Rosen's Objective-C Style and Usage Guide](https://github.com/jshmrsn/Objective-C-Style-and-Usage-Guide)
