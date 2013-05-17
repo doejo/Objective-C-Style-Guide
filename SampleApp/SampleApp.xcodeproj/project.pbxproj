@@ -103,7 +103,9 @@
 		302805EA15DD691E0039AC9C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				30560D261746C9B700E51C83 /* Resources */,
+				30560D271746C9B700E51C83 /* Fonts */,
+				30560D291746C9B700E51C83 /* HTMLs */,
+				30560D2B1746C9B700E51C83 /* Images */,
 				302805EB15DD691E0039AC9C /* SampleApp-Info.plist */,
 				302805EC15DD691E0039AC9C /* InfoPlist.strings */,
 				302805EF15DD691E0039AC9C /* main.m */,
@@ -112,22 +114,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		30560D261746C9B700E51C83 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				30560D271746C9B700E51C83 /* Fonts */,
-				30560D291746C9B700E51C83 /* HTMLs */,
-				30560D2B1746C9B700E51C83 /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		30560D271746C9B700E51C83 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 				30560D281746C9B700E51C83 /* .gitkeep */,
 			);
-			path = Fonts;
+			name = Fonts;
+			path = Resources/Fonts;
 			sourceTree = "<group>";
 		};
 		30560D291746C9B700E51C83 /* HTMLs */ = {
@@ -135,7 +128,8 @@
 			children = (
 				30560D2A1746C9B700E51C83 /* .gitkeep */,
 			);
-			path = HTMLs;
+			name = HTMLs;
+			path = Resources/HTMLs;
 			sourceTree = "<group>";
 		};
 		30560D2B1746C9B700E51C83 /* Images */ = {
@@ -143,7 +137,8 @@
 			children = (
 				30560D2C1746C9B700E51C83 /* .gitkeep */,
 			);
-			path = Images;
+			name = Images;
+			path = Resources/Images;
 			sourceTree = "<group>";
 		};
 		30560D3D1746C9E500E51C83 /* Classes */ = {
